@@ -49,7 +49,7 @@ const testimonialData = [
   { 
     service: "Tax Audit", 
     quote: "Conducted a thorough and professional tax audit. Clear communication throughout.", 
-    client: "Zenith", 
+    client: "Shambhu sah", 
     rating: 4 
   },
 ];

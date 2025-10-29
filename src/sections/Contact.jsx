@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 
 const Contact = ({ id }) => {
     const [status, setStatus] = useState('');
@@ -42,17 +42,17 @@ const Contact = ({ id }) => {
                 >
                     <h3 className="text-3xl font-bold mb-8 text-primary-blue">Contact Details</h3>
                     
-                    <motion.div variants={infoItem} className="flex items-center justify-center lg:justify-start mb-6">
-                        <FaPhone className="text-primary-blue text-xl mr-4 flex-shrink-0"/>
+                    <motion.div variants={infoItem} className="flex  justify-center lg:justify-start mb-6">
+                        <FaPhoneAlt className="text-primary-blue text-xl mr-4 flex-shrink-0"/>
                         <p className="text-lg">+91 865-108-9346</p>
                     </motion.div>
                     
-                    <motion.div variants={infoItem} className="flex items-center justify-center lg:justify-start mb-6">
+                    <motion.div variants={infoItem} className="flex  justify-center lg:justify-start mb-6">
                         <FaEnvelope className="text-primary-blue text-xl mr-4 flex-shrink-0"/>
                         <p className="text-lg">mdasifrazadcs@gmail.com</p>
                     </motion.div>
 
-                    <motion.div variants={infoItem} className="flex items-center justify-center lg:justify-start mb-6">
+                    <motion.div variants={infoItem} className="flex  justify-center lg:justify-start mb-6">
                         <FaMapMarkerAlt className="text-primary-blue text-xl mr-4 flex-shrink-0"/>
                         <p className="text-lg">Serving clients across India (Online & Local)</p>
                     </motion.div>

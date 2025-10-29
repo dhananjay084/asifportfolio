@@ -10,7 +10,12 @@ const serviceData = [
     { title: "TDS Filing", desc: "Compliance with Tax Deduction at Source regulations.", icon: FaBalanceScale },
     { title: "Digital Signature Certificate", desc: "Obtaining secure e-signature for transactions.", icon: FaSignature },
     { title: "PAN/TAN Card", desc: "Essential tax identification documentation.", icon: FaUserCheck },
+    { title: "Bookkeeping & Accounting", desc: "Maintain accurate and up-to-date financial records to ensure smooth business operations.", icon: FaBalanceScale },
+    { title: "Financial Statements Preparation", desc: "Prepare clear and compliant balance sheets, income statements, and cash flow reports for informed decision-making.", icon: FaBalanceScale },
+    { title: "Accounting & Bookkeeping", desc: "Streamline daily financial tracking and reporting to support transparency and regulatory compliance.", icon: FaBalanceScale },
+    { title: "Financial Statements Preparation", desc: "Deliver precise, audit-ready financial statements that reflect your company’s true financial health.", icon: FaBalanceScale },
     { title: "Tax Audit", desc: "Statutory compliance verification and report.", icon: FaBalanceScale },
+
 ];
 
 // Stagger Animation Variants
